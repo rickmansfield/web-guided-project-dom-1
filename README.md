@@ -1,4 +1,4 @@
-# DOM 1
+# DOM 1 Lambda Dog/Cat
 
 Guided project for **DOM 1** Module.
 
