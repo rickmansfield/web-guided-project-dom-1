@@ -54,13 +54,13 @@ link2FirstCard.setAttribute('href', 'https://doggoipsum.com')
 
 // 👉 5- Changing the styling of an element
 //  A- By changing the class names on the element with the classList API
-header.classList.add('sky')
-header.classList.remove('sky')
-setInterval(() => {
-    header.classList.toggle('sky')
-}, 1000)
+header.classList.add('sky');
+// header.classList.remove('sky');
+// setInterval(() => {
+//     header.classList.toggle('sky');
+// }, 1000);
 //  B- By manipulating inline styles on the element
-header.style.fontSize = '2em'
+header.style.fontSize = '2em';
 
 
 // 👉 6- Creating new elements from scratch and appending them
@@ -74,9 +74,9 @@ document.querySelector('nav').appendChild(blogLink)
 // DOM nodes can only exist in one spot in the DOM
 // We cannot append the same copy multiple times
 const secondCard = firstCard.cloneNode(true)
-document.querySelector('.card-group').appendChild(secondCard)
+document.querySelector('.card-group').appendChild(secondCard);
 
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
-
+// firstCard.remove(secondCard); //uncomment to add and remove secondCard
 
 // 👉 9- Show to students the insertAdjacentHTML method [STRETCH if time allows]
